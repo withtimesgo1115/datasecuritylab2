@@ -32,8 +32,6 @@ public class ClientOperation {
 
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	private static RMIInterface server;
-
-
 	private static String username = "";
 	private static String password = "";
 	private static UUID session;
